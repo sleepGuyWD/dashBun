@@ -9,7 +9,7 @@ const PORT = process.env.PORT | 2121
   //*Import functions/routes
 
 //todo - Connect to Database
-async function connectToDB () {
+async function connectToDB() {
   try {
     await mongoose.connect(process.env.MONGO_URI)
     console.log('MongoDB Connected')

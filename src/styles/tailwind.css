@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+#heroSec {
+  height: 87%;
+  margin: 0 auto;
+}
+
+html,
+.back {
+  height: 100vh;
+}
